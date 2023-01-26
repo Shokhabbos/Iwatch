@@ -1,0 +1,325 @@
+body {
+  font-family: 'Roboto',
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+
+.hero_section_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+.hero_section_top .header_left .header_img {
+  width: auto;
+  height: 60px;
+  object-fit: contain;
+
+}
+
+.hero_section_top .header_right {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.hero_section_top .header_right .menu_link {
+  padding: 20px 32px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #B5B3B4;
+  transition: all ease 0.5s;
+
+}
+.hero_section_top .header_right .menu_link:hover {
+  padding: 20px 32px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+  border-bottom: 1px solid black;
+  width: auto;
+
+}
+
+
+input[type="search"] {
+  border-bottom: 1px solid #A19CA3;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 0 15px 0;
+  outline: none;
+  font-weight: 700;
+  font-size: 15px;
+   color: #000;
+}
+
+input[type="search"]::placeholder {
+  font-weight: 700;
+  font-size: 15px;
+  color: #A19CA3;
+}
+
+
+.something {
+  background-image: url(../img/watches.jpg);
+  background-repeat: no-repeat;
+  background-size: 720px 701px;
+  background-position: 118% bottom ;
+  padding: 178px;
+  border-bottom: 1px solid #ededed;
+ 
+
+
+}
+
+.hero_section {
+ 
+}
+
+
+
+.black_h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #333333;
+
+
+}
+
+.white_h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+
+
+}
+
+.black_p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 80px;
+  position: relative;
+  margin-left: 22px;
+  color: #AAABAB;
+}
+
+.black_p::before {
+  content: "";
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  border: 1px solid #AAABAB;
+
+}
+
+.white_p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 80px;
+  position: relative;
+  margin-left: 22px;
+  color: #fff;
+}
+
+.white_p::before {
+  content: "";
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  border: 1px solid #fff;
+
+
+}
+
+
+.big_a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #EA625C;
+  background-color: #EA625C;
+  padding: 20px 55px;
+  text-transform: uppercase;
+
+}
+.big_a:hover {
+background-color:#D14253;
+}
+
+
+
+.mid_a {
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  border: 1px solid #EA625C;
+  background-color: #EA625C;
+  padding: 11px 11px;
+  text-transform: uppercase;
+
+
+}
+
+.mid_a:hover {
+background-color:#D14253;
+
+}
+
+
+.wrapper_section {
+  margin-bottom: 100px;
+}
+
+.title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #343C4B;
+  line-height: 25px;
+}
+
+
+
+.box_inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+
+}
+
+
+.dots {
+  display: flex;
+  margin-top: 24px;
+}
+
+.dot {
+
+  border: 1px solid #CBCCCC;
+  padding: 2px;
+  margin-right: 20px;
+  background-color: #CBCCCC;
+
+}
+
+
+.learn{
+  display: flex;
+}
+.learn_more {
+  color: #EA625D;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 24px;
+  display: inline-block;
+  position: relative;
+  padding-left: 52px;
+  transition: all ease 0.5s;
+
+
+
+}
+
+
+/* span{
+  border: 1px solid #EA625D;
+ 
+} */
+
+.learn_more:hover {
+ /* margin-left: 82px; */
+
+}
+.learn_more:hover::before {
+
+ /* right: 136px; */
+  /* transform: translateX(10px); */
+
+}
+
+.learn_more:hover {
+  padding-left: 62px;
+}
+
+.learn_more:hover.learn_more::before{
+  width: 40px;
+}
+
+.learn_more::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+  width: 30px;
+  height: 3px;
+  background-color: #EA625C;
+  transition: all ease 0.5s;
+}
+
+
+
+.nike_inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.white_watch{
+     height: 754px;
+     width: 502px;
+  object-fit: contain;
+}
+
+
+footer{
+  background-image: url(../img/runners.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+
+}
+
+
+.footer_inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 200px 0;
+}
